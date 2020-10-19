@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task</title>
+    <style>
+        *{
+            margin:0;
+            padding: 0;
+            font-family: sans-serif;
+        }
+        .main__dark{
+            top:0;
+            left:0;
+            width:100%;
+            height:100%;
+            position: absolute;
+            background-color: rgba(0,0,0,.8);
+        }
+        .main__menu{
+            margin:20px auto;
+            display: flex;
+            margin-bottom: 150px;
+            justify-content: center;
+        }
+        .main__header{
+            position: relative;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-clip: border-box;
+            min-height: 66vh;
+        }
+        .menu-logo{
+            margin-right: 100px;
+            color: rgb(214, 151, 95);
+            font-size:24px;
+            letter-spacing: -2px;
+            font-weight: bold;
+        }
+        .resized-block{
+            width:70%;
+            display: flex;
+            justify-content: center;
+        }
+        .menu-items{
+            display: flex;
+            justify-content: flex-end;
+            width:100%;
+            font-size: 16px;
+        }
+        li{
+            margin:auto 20px;
+            list-style: none;
+            justify-content: center;
+            color:#fff;
+            text-shadow: 0px 0px 3px #000;
+        }
+        li:first-of-type{
+            color: rgb(214, 151, 95);
+        }
+        .main__title{
+            font-size: 48px;
+            font-stretch: ultra-condensed;
+            text-align: center;
+            text-transform: uppercase;
+            font-weight: bold;
+            color:#fff;
+            text-shadow: 0px 0px 3px #000;
+        }
+        .title-block{
+            width:100%;
+            display: flex;
+            justify-content: center;
+        }
+        hr{
+            background-color: rgb(214, 151, 95);
+            height: 3px;
+            color:rgb(214, 151, 95);
+            border-color:rgb(214, 151, 95);
+        }
+        .main__subtitle{
+            color:#fff;
+            text-align: center;
+            width:720px;
+            text-shadow: 0px 0px 3px #000;
+        }
+        button{
+            border:2px solid rgb(214, 151, 95);
+            background-color: transparent;
+            padding:10px 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            margin:20px auto;
+            color:rgb(214, 151, 95);
+        }
+        .main__body-title{
+            font-stretch: ultra-condensed;
+            color:#000;
+            font-size: 28px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+        .main__body{
+            margin:60px auto;
+        }
+        .main__body-item{
+            display: flex;
+            justify-content: center;
+        }
+        .main__body-about{
+            width: 100%;   
+            margin:40px auto;
+            display: flex;
+            justify-content: center;
+        }
+        .main-about-item{
+            margin:auto 20px;
+            text-align: center;
+            width:calc(25%);
+        }
+        .about-title{
+            text-align: center;
+            font-stretch: ultra-condensed;
+            color:rgb(214, 151, 95);
+            font-size: 22px;
+            font-weight: bold;
+            margin:10px auto;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="main__header" style = "background-image: url(https://cdn.shazoo.ru/462949_Lb9j5ILOsR_cp_77_night.jpg);">
+            <div class="main__dark">
+                <div class="main__menu">
+                    <div class="resized-block">
+                        <div class="menu-logo">Task</div>
+                        <div class="menu-items">
+                            <li>Home</li>
+                            <li>About</li>
+                            <li>Portfolio</li>
+                            <li>Services</li>
+                            <li>Team</li>
+                            <li>Blog</li>
+                            <li>Contact</li>
+                        </div>
+                    </div> 
+                </div>
+                <div class="title-block">
+                    <div class="resized-block">
+                        <div class="main__title">
+                            excellent wordpress theme
+                        </div>
+                    </div> 
+                </div>
+                <hr style = "margin:20px auto; width:200px">
+                <div class="title-block">
+                    <div class="resized-block">
+                        <div class="main__subtitle">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, quod numquam sapiente sunt sequi recusandae!
+                        </div>
+                    </div>
+                </div>
+                <div class="title-block">
+                    <button>
+                        MORE DETAILs
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div class="main__body">
+            <div class="main__body-item">     
+                 <div class="resized-block">          
+                    <div class="main__body-title">
+                        About
+                    </div>
+                </div>
+            </div>
+            <hr style = "margin:10px auto;width: 40px;">
+            <div class="main__body-item">     
+                <div class="resized-block">  
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum, perferendis!
+                </div>
+            </div>
+            <div class="main__body-item">     
+                <div class="resized-block">  
+                    <div class="main__body-about">
+                        <div class="main-about-item">
+                            <p class="about-title">Design</p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, quo!
+                        </div>
+                        <div class="main-about-item">
+                            <p class="about-title">Design</p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, ipsum?
+                        </div>
+                        <div class="main-about-item">
+                            <p class="about-title">Design</p>
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ut, perferendis.
+                        </div>
+                        <div class="main-about-item">
+                            <p class="about-title">Design</p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, odio.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+</body>
+</html>
